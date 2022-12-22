@@ -59,7 +59,15 @@ h1{
     text-align: center;
 }
 
+.imagen_index{
+    display: flex;
+    justify-content: center;
+}
 
+.imagen_index img{
+    width: 80%;
+    
+}
 
 footer{
     background-color: green;

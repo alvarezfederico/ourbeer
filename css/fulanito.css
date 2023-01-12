@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: rgb(52, 109, 9);
+}
+
+footer {
+  background-color: rgb(13, 206, 167);
+  align-items: flex-end;
+  text-align: center;
+}
+
+.imagen_acc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.imagen_acc img {
+  height: auto;
+  width: 50%;
+}
+
+.imagen_pro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.imagen_pro .imagen_pro img {
+  height: auto;
+  width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  header {
+    display: flex;
+    background-color: rgb(52, 109, 9);
+  }
+  nav {
+    width: 50%;
+  }
+  .navegacion li a {
+    padding: 15%;
+    border-radius: 30%;
+    background-color: white;
+  }
+  .imagen_index {
+    display: flex;
+    justify-content: center;
+  }
+  .imagen_index img {
+    width: 50%;
+  }
+  .imagen_acc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .imagen_acc img {
+    width: 50%;
+  }
+  .imagen_pro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .imagen_pro img {
+    width: 50%;
+  }
+  footer {
+    background-color: rgb(13, 206, 167);
+    align-items: flex-end;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    display: flex;
+    background-color: rgb(52, 109, 9);
+  }
+  .navegacion li a {
+    padding: 15%;
+    border-radius: 30%;
+    background-color: white;
+  }
+  .imagen_index {
+    display: flex;
+    justify-content: center;
+  }
+  .imagen_index img {
+    width: 100%;
+  }
+  .imagen_acc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .imagen_acc img {
+    width: 100%;
+  }
+  .imagen_pro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .imagen_pro img {
+    width: 100%;
+  }
+  footer {
+    background-color: rgb(13, 206, 167);
+    align-items: flex-end;
+    text-align: center;
+  }
+}/*# sourceMappingURL=fulanito.css.map */

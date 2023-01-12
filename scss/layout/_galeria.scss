@@ -1,0 +1,27 @@
+.imagen_acc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+img{
+    @include ancho(50%)
+}
+
+}
+
+
+
+.imagen_pro
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+
+
+.imagen_pro img{
+    @include ancho(50%)
+}
+}

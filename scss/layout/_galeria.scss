@@ -6,7 +6,7 @@
 
 img{
     @include ancho(50%)
-}
+    }
 
 }
 
@@ -21,7 +21,8 @@ img{
 
 
 
-.imagen_pro img{
+.imagen_pro img
+    {
     @include ancho(50%)
-}
+    }
 }

@@ -26,3 +26,13 @@ img{
     @include ancho(50%)
     }
 }
+
+.imagen_index{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_index img{
+    width: 80%;
+    
+}

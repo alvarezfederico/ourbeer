@@ -1,4 +1,17 @@
 nav{
-    width: 50%;
+    width: 35%;
    
+}
+
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navegacion li a{
+    padding: 15%;
+    border-radius: 30%;
+    background-color: rgb(254, 254, 254);
 }

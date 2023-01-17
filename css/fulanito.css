@@ -4,18 +4,45 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 header {
   display: flex;
   background-color: rgb(52, 109, 9);
 }
+
 header div {
-  width: 50%;
+  width: 80%;
+}
+
+header div img {
+  width: 15%;
+  padding: 1%;
 }
 
 footer {
   background-color: rgb(13, 206, 167);
   align-items: flex-end;
   text-align: center;
+}
+
+nav {
+  width: 35%;
+}
+
+.navegacion {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+.navegacion li a {
+  padding: 15%;
+  border-radius: 30%;
+  background-color: rgb(254, 254, 254);
 }
 
 ul {
@@ -27,10 +54,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-nav {
-  width: 50%;
 }
 
 .imagen_acc {
@@ -53,6 +76,15 @@ nav {
 .imagen_pro .imagen_pro img {
   height: auto;
   width: 50%;
+}
+
+.imagen_index {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen_index img {
+  width: 80%;
 }
 
 @media screen and (min-width: 480px) {

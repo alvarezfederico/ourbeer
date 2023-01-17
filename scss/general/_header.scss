@@ -2,12 +2,16 @@ header
 {
     display: flex;
     background-color: $secundary;
-    
-
-
-div {
-   
-    width: 50%;
-   
-    }
 }
+
+header div{
+   
+    width: 80%;
+   
+}
+
+header div img {
+    width: 15%;
+    padding: 1%;
+}
+
